@@ -2,7 +2,7 @@
 
   <h1>Wonderr <span style="display:inline-block; animation: spin 3s linear infinite;">✨</span></h1>
 
-  <h2>Backend / Gameserver Developer</h2>
+  <h2>Backend and Launcher Developer</h2>
   
   <p style="font-size: 18px; margin-top: 5px; margin-bottom: 20px;">
     Rust, JavaScript, TypeScript, C, HTML (markup lang), JSON
