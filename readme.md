@@ -45,37 +45,3 @@
     display: inline-block;
     animation: spin 3s linear infinite;
   }
-
-  @keyframes spin {
-    0% { transform: rotate(0deg) scale(1); }
-    50% { transform: rotate(180deg) scale(1.2); }
-    100% { transform: rotate(360deg) scale(1); }
-  }
-
-  .hover-scale:hover {
-    transform: scale(1.05) translateY(-5px);
-  }
-
-  div[align="center"] * {
-    opacity: 0;
-    animation: fadeInUp 1s forwards;
-  }
-
-  div[align="center"] *:nth-child(1) { animation-delay: 0.1s; }
-  div[align="center"] *:nth-child(2) { animation-delay: 0.3s; }
-  div[align="center"] *:nth-child(3) { animation-delay: 0.5s; }
-  div[align="center"] *:nth-child(4) { animation-delay: 0.7s; }
-  div[align="center"] *:nth-child(5) { animation-delay: 0.9s; }
-  div[align="center"] *:nth-child(6) { animation-delay: 1.1s; }
-
-  @keyframes fadeInUp {
-    0% { opacity: 0; transform: translateY(20px); }
-    100% { opacity: 1; transform: translateY(0); }
-  }
-
-  h1:hover {
-    color: #ff69b4;
-    transition: color 0.5s ease;
-  }
-</style>
-
